@@ -1,0 +1,68 @@
+//============================================================================
+// Name        : RomanToStringC++.cpp
+// Author      : melalonso
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Methods for converting String number to integer value
+//============================================================================
+
+#include "../include/intToString.h"
+
+using namespace std;
+
+#define NOT_FOUND -1
+#define MIL 1000
+#define MILLON 1000000
+#define BILLON 1000000000
+
+int findWordValue(string w){
+	for (int i =0;i<10;i++){
+		if (w==units[i]) return i;
+		else if (w==teens[i]) return 10+i;
+		else if (w==tens[i]) return 10*i;
+		else if (w==twenties[i]) return 20+i;
+		else if (w==hundreds[i]) return 100*i;
+	}
+	return NOT_FOUND;
+}
+
+bool isSeparator(string w){
+	return w=="mil" || w=="millon" || w=="millones" ||
+			w=="billon" || w=="billones";
+}
+
+int getSeparatorValue(string w){
+	if (w=="mil") return MIL;
+	else if (w=="millon" || w=="millones") return MILLON;
+	else if (w=="billon" || w=="billones") return BILLON;
+	else return NOT_FOUND;
+}
+
+
+int strToInt(string str){
+	int acc,total=0;
+	stringstream s(str);
+	string w;
+	while(s >> w){
+		acc = 0;
+		while(!isSeparator(w)){
+			acc += findWordValue(w);
+			s >> w;
+		}
+		total += (acc * getSeparatorValue(w));
+	}
+	cout << "Total es "<<total<<endl;
+
+	return total;
+}
+
+/*
+int main(){
+	string numero = "noventa y dos";
+	//
+	cout << strToInt(numero)<<endl;
+}
+*/
+
+
+

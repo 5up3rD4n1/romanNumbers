@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RomanTranslator/src/RomanToString.cpp&apos; to &apos;RomanTranslator.cpp&apos;" description="Rename resource &apos;RomanToString.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/RomanToString.cpp" name="RomanTranslator.cpp" stamp="1427139897971" updateReferences="true"/>
+</session>

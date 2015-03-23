@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project RomanTranslator ****
+
+make all 
+Building file: ../src/strToInt.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/strToInt.d" -MT"src/strToInt.d" -o "src/strToInt.o" "../src/strToInt.cpp"
+Finished building: ../src/strToInt.cpp
+ 
+Building target: RomanTranslator
+Invoking: GCC C++ Linker
+g++  -o "RomanTranslator"  ./src/RomanTranslator.o ./src/intToRoman.o ./src/intToString.o ./src/romanToInt.o ./src/strToInt.o   
+Finished building target: RomanTranslator
+ 
+
+**** Build Finished ****

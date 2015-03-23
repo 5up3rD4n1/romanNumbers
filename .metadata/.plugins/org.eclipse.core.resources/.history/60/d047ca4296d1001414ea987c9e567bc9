@@ -1,0 +1,47 @@
+/*
+ * IntToRoman.cpp
+ *
+ *  Created on: 23/03/2015
+ *      Author: melalonso
+ */
+
+#include <iostream>
+using namespace std;
+
+string romanUnits[] = {"I","II","III","IV","V","VI","VII","VIII","IX"};
+string romanTens[] = {"X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
+string romanHundreds[] = {"C","CC","CCC","CD","D","DX","DXX","DXXX","CM"};
+
+
+
+string intToRoman(long n){
+	string roman="";
+
+	// Posible big part that uses another notation. (IV)CCC = 4300
+	// Starts at 4000
+	int bigPart = n / 1000;
+
+	int xAmount = bigPart / 10;
+	int lastDigit = bigPart % 10;
+
+	while(xAmount--) roman += "X";
+
+	if (lastDigit > 3) roman += romanUnits[lastDigit];
+	else{ while(lastDigit--) roman += "M";}
+
+
+	// Small part that all numbers have.
+	int smallPart = n%1000;
+
+	int x = smallPart/100;
+	roman += romanHundreds[x];
+	x = smallPart/10;
+	roman += romanTens[x];
+	x = smallPart%10;
+	roman += romanUnits[x];
+	return roman;
+}
+
+
+
+

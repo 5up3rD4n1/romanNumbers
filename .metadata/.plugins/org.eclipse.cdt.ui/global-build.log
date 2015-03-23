@@ -1,0 +1,101 @@
+
+**** Build of configuration Debug for project RomanTranslator ****
+
+make all 
+Building file: ../src/RomanTranslator.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RomanTranslator.d" -MT"src/RomanTranslator.d" -o "src/RomanTranslator.o" "../src/RomanTranslator.cpp"
+Finished building: ../src/RomanTranslator.cpp
+ 
+Building file: ../src/intToString.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/intToString.d" -MT"src/intToString.d" -o "src/intToString.o" "../src/intToString.cpp"
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ char *units[9]={"uno","dos","tres","cuatro","cinco","seis","siete","ocho","nueve"};
+                                                                                  ^
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Finished building: ../src/intToString.cpp
+../src/intToString.cpp:10:82: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ 
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Building file: ../src/strToInt.cpp
+ char *teens[9]={"once","doce","trece","catorce","quince","dieciséis","diecisiete","dieciocho","diecinueve"};
+Invoking: GCC C++ Compiler
+                                                                                                            ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/strToInt.d" -MT"src/strToInt.d" -o "src/strToInt.o" "../src/strToInt.cpp"
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:11:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ char *twenties[9]={"ventiuno","ventidos","ventitres","venticuatro","veinticinco","veintiseis","veintisiete","ventiocho","ventinueve"};
+                                                                                                                                     ^
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:12:133: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ char *tens[9]={"diez","veinte","treinta","cuarenta","cincuenta","sesenta","setenta","ochenta","noventa"};
+                                                                                                        ^
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:13:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ char *hundreds[9]={"ciento","doscientos","trescientos","cuatrocientos","quinientos","seiscientos","setecientos","ochocientos","novecientos"};
+                                                                                                                                            ^
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp:14:140: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../src/intToString.cpp: In function 'void intToString(long int)':
+../src/intToString.cpp:133:27: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+    printf("%d ",numbers[i]);
+                           ^
+Finished building: ../src/strToInt.cpp
+ 
+Building target: RomanTranslator
+Invoking: GCC C++ Linker
+g++  -o "RomanTranslator"  ./src/RomanTranslator.o ./src/intToRoman.o ./src/intToString.o ./src/romanToInt.o ./src/strToInt.o   
+Finished building target: RomanTranslator
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RomanTranslator ****
+
+make all 
+Building file: ../src/strToInt.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/strToInt.d" -MT"src/strToInt.d" -o "src/strToInt.o" "../src/strToInt.cpp"
+Finished building: ../src/strToInt.cpp
+ 
+Building target: RomanTranslator
+Invoking: GCC C++ Linker
+g++  -o "RomanTranslator"  ./src/RomanTranslator.o ./src/intToRoman.o ./src/intToString.o ./src/romanToInt.o ./src/strToInt.o   
+Finished building target: RomanTranslator
+ 
+
+**** Build Finished ****
